@@ -1,0 +1,30 @@
+nav {
+  box-shadow: 0px 15px 30px black;
+  margin-bottom: 15px;
+}
+
+nav ul {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(43,43,43,0.9) 50%, rgba(0,0,0,0.9) 100%);
+  color: white;
+  font: bold 20px "Courier new", courier, monospace;
+  display: block;
+  list-style-type: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav a, nav a:active {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+nav a:hover {
+  background: linear-gradient(0deg, rgba(0,0,0,0.95) 0%, rgba(43,43,43,0.95) 50%, rgba(0,0,0,0.95) 100%);
+}
